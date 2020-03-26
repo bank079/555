@@ -1,0 +1,31 @@
+---
+title: "R01 3-1 plot"
+author: "何俊佑"
+date: "2020/3/26"
+output: html_document
+---
+
+```{r setup include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(datasets)
+dim(iris)
+```
+
+```{r}
+head(iris)
+```
+
+```{r}
+plot(iris$Species)
+```
+
+```{r}
+plot(iris$Petal.Length)
+```
+
+
+
